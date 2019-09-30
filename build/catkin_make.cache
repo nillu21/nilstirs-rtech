@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/nilstirs-rtech/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nilstirs-rtech/install -G Unix Makefiles
