@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/nilstirs-rtech/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/ubuntu/nilstirs-rtech/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/nilstirs-rtech/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ubuntu/nilstirs-rtech/src:$ROS_PACKAGE_PATH"
+export PWD="/home/ubuntu/catkin_ws/build"

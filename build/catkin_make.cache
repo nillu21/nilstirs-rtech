@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/ubuntu/nilstirs-rtech/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nilstirs-rtech/install -G Unix Makefiles
+beginner_tutorials:my_r2d2
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles
