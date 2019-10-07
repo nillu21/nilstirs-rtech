@@ -543,7 +543,7 @@ kdl_conversions_DIR:PATH=/opt/ros/kinetic/share/kdl_conversions/cmake
 kdl_parser_DIR:PATH=/opt/ros/kinetic/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
@@ -589,6 +589,12 @@ pcl_ros_DIR:PATH=/opt/ros/kinetic/share/pcl_ros/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
+
+//Value Computed by CMake
+r2d2_navigator_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/r2d2_navigator-master
+
+//Value Computed by CMake
+r2d2_navigator_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/r2d2_navigator-master
 
 //The directory containing a CMake configuration file for resource_retriever.
 resource_retriever_DIR:PATH=/opt/ros/kinetic/share/resource_retriever/cmake
@@ -863,7 +869,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
